@@ -4,8 +4,8 @@ import { AppService } from './app.service';
 import { ChatModule } from './chat/chat.module';
 
 @Module({
-  imports: [ChatModule],
-  controllers: [AppController],
-  providers: [AppService],
+    imports: [ChatModule],
+    controllers: [AppController],
+    providers: [AppService],
 })
-export class AppModule {}
+export class AppModule { }
